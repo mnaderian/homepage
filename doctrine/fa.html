@@ -4,15 +4,15 @@ title: دکترین
 permalink: /doctrine/fa
 ---
 
-    <section lang="fa">
+    <section lang="fa" dir="rtl">
       <h1 style="margin-bottom: 0px">دکترین ریلز</h1>
       <p style="margin-top: 0"><small style="color: grey">نوشته دیوید هنسون هاینمایر در ژانویه ۲۰۱۶</small></p>
 
-      <figure class="right">
+      <figure class="left">
         <img src="/images/doctrine.png" alt="La Doctrina Rails">
       </figure>
 
-      <p>El fenomenal ascenso de Ruby on Rails al estrellato se debió en gran parte a su despegue en la tecnología y en los tiempos novedosos. Pero las ventajas tecnológicas se erosionan con el tiempo y un buen momento no sostiene movimientos por sí solos a largo plazo. Por lo tanto, se necesita una explicación más amplia de cómo Rails no solo sigue siendo relevante, sino también para aumentar su impacto y su comunidad. Propongo que el facilitador a lo largo del tiempo ha sido y sigue siendo su doctrina controvertida.</p>
+      <p>Ruby on Rails بسیاری از </p>
 
       <p>Esta doctrina ha evolucionado durante la última década, pero la mayoría de sus pilares más fuertes también son sus fundadores. No pretendo reivindicar la originalidad fundamental de estas ideas. El principal logro de Rails fue unir y cultivar una tribu fuerte en torno a un amplio conjunto de pensamientos heréticos sobre la naturaleza de la programación y los programadores.</p>
 
@@ -55,7 +55,7 @@ permalink: /doctrine/fa
       <p>De todos modos, ¿qué significó esto para Rails y cómo este principio continúa guiando su evolución? Para responder a eso, creo que es instructivo observar otro principio que se usaba a menudo para describir a Ruby en los primeros días: El principio de la menor sorpresa. Ruby debería comportarse como esperas que lo haga. Esto se describe fácilmente al compararlo con Python:</p>
 
       <p>
-        <code><pre>
+        <code><pre dir="ltr">
     $ irb
     irb(main):001:0> exit
     $ irb
@@ -166,7 +166,7 @@ permalink: /doctrine/fa
       <p>Aqui un simple ejemplo de Active Record:</p>
 
       <p>
-        <code><pre>
+        <code><pre dir="ltr">
     class Project < ApplicationRecord
       belongs_to :account
       has_many :participants, class_name: 'Person'
@@ -181,7 +181,7 @@ permalink: /doctrine/fa
       <p>Aquí hay otro ejemplo del sistema de migración de base de datos:</p>
 
       <p>
-        <code><pre>
+        <code><pre dir="ltr">
     class CreateAccounts < ActiveRecord::Migration
       def change
         create_table :accounts do |t|
@@ -201,7 +201,7 @@ permalink: /doctrine/fa
       <p>Estas dos afirmaciones hacen lo mismo:</p>
 
       <p>
-        <code><pre>
+        <code><pre dir="ltr">
     if people.include? person
       …
 
